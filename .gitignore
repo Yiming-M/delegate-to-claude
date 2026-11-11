@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env
+.env.*
+.credentials.json
+routes.local.json
+*.trace.json
+*.jsonl

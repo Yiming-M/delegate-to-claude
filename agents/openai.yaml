@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delegate to Claude"
+  short_description: "Delegate tasks with tools and resumable conversations"
+  default_prompt: "Use $delegate-to-claude to carry out this task with Claude, continue with feedback as needed, and verify the result."

@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "subscription1": {"type": "subscription"},
+    "api1": {"type": "api", "key_profile": "api1"},
+    "subscription2": {"type": "subscription", "config_dir": "~/.claude-secondary"},
+    "api2": {"type": "api", "key_profile": "api2", "config_dir": "~/.claude-secondary"}
+  },
+  "order": ["subscription1", "api1", "subscription2", "api2"]
+}
